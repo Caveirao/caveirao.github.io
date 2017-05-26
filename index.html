@@ -1,8 +1,244 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <title>Caveirão Project</title>
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Caveirão - Robô Sumô</title>
+        <meta name="description" content="O 'Caveirão' é um projeto desenvolvido para a competição RobôSumô 2017, da UNN, por alunos do 4º ano de Engenharia da Computação.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" sizes="44x44" href="img/logo1.png">
+		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/robots.css">
+		<!-- skin -->
+		<link rel="stylesheet" href="skin/default.css">
+        <!-- =======================================================
+            Theme Name: Amoeba
+            Theme URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
+            Author: BootstrapMade
+            Author URL: https://bootstrapmade.com
+        ======================================================= -->
     </head>
+
     <body>
-        Em construção...
-    </body>
+		<section id="header" class="appear"></section>
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			Caveirão
+					</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+						<li class="active"><a href="index.html">Início</a></li>
+						<li><a href="#section-about">Sobre</a></li>
+						<li><a href="#section-team">Time</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</div>
+
+		<section class="featured">
+			<div class="container">
+				<div class="row mar-bot40">
+					<div class="col-md-6 col-md-offset-3">
+
+						<div class="align-center">
+							<img src="img/logo1.png" width="100"/>
+                            <br/><br/>
+							<h2 class="slogan">Robô Caveirão</h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-technologies" class="section pad-bot30 bg-white">
+		<div class="container">
+
+			<div class="row mar-bot40">
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<i class="fa fa-code fa-5x mar-bot20"></i>
+						<h4 class="text-bold">Python 3.6</h4>
+						<p>A parte lógico do robô foi implementada a partir de linguagens como Python e C++ por oferecem maior versatilidade ao projeto.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<i class="fa fa-microchip fa-5x mar-bot20"></i>
+						<h4 class="text-bold">RaspberryPi 3B</h4>
+						<p>A <i>single-board computer</i> (SBC) Raspberry ficou encarregada de embarcar o <i>software</i> controlador e gerenciar poderosos motores.
+					</div>
+				</div>
+
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<i class="fa fa-cogs fa-5x mar-bot20"></i>
+						<h4 class="text-bold">Estrutura em Alumínio</h4>
+						<p>Peças exclusivas e de excelente qualidade, à base de aluminio, foram confeccionadas para compor a parte física do robô.</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		</section>
+
+		<!-- spacer section:testimonial -->
+		<section id="section-about" class="section" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-12">
+							<div class="align-center">
+        						<div class="testimonial pad-top30 pad-bot30 clearfix">
+        							<h5>
+                                        Desenvolvido por discentes do 4º ano de Engenharia na Computação na UniNorte Laureate, o <b>Robô Caveirão</b> é um projeto para a competição de robótica RobôSumô 2017 de Manaus-Am.
+        							</h5>
+                                    <br/>
+        							<span class="author"> #TeamCaveirão</span>
+        						</div>
+
+							</div>
+					</div>
+
+			</div>
+		</div>
+		</section>
+
+		<!-- about -->
+		<section id="section-team" class="section appear clearfix" style="background:#fff">
+		<div class="container">
+
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Quem somos?</h2>
+                            <p>Futuros engenheiros, apaixonados por tecnologia e inovação</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row align-center mar-bot40">
+					<div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/allexlima" alt="" /></figure>
+							<div class="team-detail"><h4><a href="https://allexlima.com" target="_blank">Allex Lima</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/danielbispov" alt="" /></figure>
+							<div class="team-detail"><h4><a href="http://github.com/danielbispov" target="_blank">Daniel Bispo</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/ednux" alt="" /></figure>
+							<div class="teame-detail"><h4><a href="http://github.com/ednux" target="_blank">Edson Brilhante</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/heryckmichael" alt="" /></figure>
+							<div class="team-detail"><h4><a href="http://github.com/heryckmichael" target="_blank">Heryck Michael</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/none" alt="" /></figure>
+							<div class="team-detail"><h4><a href="#" target="_blank">Luan Serra</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/pauloigormoraes" alt="" /></figure>
+							<div class="team-detail"><h4><a href="http://www.pauloigormoraes.com/" target="_blank">Paulo Moraes</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/renanbarroncas" alt="" /></figure>
+							<div class="team-detail"><h4><a href="http://github.com/renanbarroncas" target="_blank">Renan Barroncas</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/none" alt="" /></figure>
+							<div class="team-detail"><h4><a href="#" target="_blank">Richard Colares</a></h4></div>
+						</div>
+					</div>
+                    <div class="col-md-4">
+						<div class="team-member">
+							<figure class="member-photo"><img width="150" height="150" src="https://avatars.githubusercontent.com/none" alt="" /></figure>
+							<div class="team-detail"><h4><a href="#" target="_blank">Uerberth Pereira</a></h4></div>
+						</div>
+					</div>
+                </div>
+		</section>
+		<!-- /about -->
+
+		<!-- robos -->
+		<section id="section-robots" class="section appear clearfix text-center" >
+            <div class="bot robot1"></div>
+            <div class="bot robot2"></div>
+            <div class="bot robot3"></div>
+            <div class="bot robot4"></div>
+            <div class="bot robot5"></div>
+
+            <div class="pad-top25">
+                <a class="github-button" href="https://github.com/caveirao" data-size="large" aria-label="Follow @caveirao on GitHub">Follow @caveirao</a>
+                <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" data-size="large" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+            </div>
+		</section>
+
+	<section id="footer" class="section footer">
+		<div class="container">
+			<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Copyright &copy; 2017 Robô Caveirão</p>
+                        <div class="credits">
+                            <!--
+                                All the links in the footer should remain intact.
+                                You can delete the links only if you purchased the pro version.
+                                Licensing information: https://bootstrapmade.com/license/
+                                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Amoeba
+                            -->
+                            Amoeba Theme</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+			</div>
+		</div>
+
+	</section>
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+    <script src="js/main.js"></script>
+    <script src="contactform/contactform.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+	</body>
 </html>
